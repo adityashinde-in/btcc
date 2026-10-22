@@ -1110,6 +1110,9 @@ img {
   .footer-right-col {
     align-items: flex-start;
   }
+  .mission-full-card {
+    grid-template-columns: 1fr !important;
+  }
 }
 
 @media (max-width: 600px) {
