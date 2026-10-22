@@ -322,14 +322,20 @@ body.page-is-leaving main {
 .brand-meta {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  width: max-content;
 }
 
 .meta-title {
-  font-size: 0.78rem;
+  display: block;
+  width: 100%;
+  font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 0.06em;
   color: var(--primary-navy);
-  line-height: 1.2;
+  line-height: 1.25;
+  text-align: justify;
+  text-align-last: justify;
+  text-justify: inter-character;
 }
 
 .meta-sub {
