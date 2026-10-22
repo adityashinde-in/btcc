@@ -9,7 +9,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="idea.css">
 </head>
 <body>
 
@@ -74,7 +75,7 @@
   <main id="main-content">
 
     <!-- Page Header Intro -->
-    <section class="section-padded" style="background-color: var(--bg-soft-ivory); border-bottom: 1px solid var(--border-light); padding-top: 4rem; padding-bottom: 4rem;">
+    <section class="idea-page-intro">
       <div class="site-container">
         <div class="section-title-wrapper" style="text-align: left; margin-bottom: 0;">
           <div class="pre-heading">PAGE 02 — THE BTCC IDEA</div>
@@ -89,22 +90,22 @@
     <!-- Section 1: The BTCC Interface & Core Question -->
     <section class="section-padded">
       <div class="site-container">
-        <div class="grid-2-col" style="align-items: center; gap: 3.5rem;">
+        <div class="grid-2-col">
           <div>
             <div class="pre-heading">THE BTCC INTERFACE</div>
             <h2 class="main-heading" style="font-size: 2.1rem; margin-bottom: 1.2rem;">From Emerging Possibility to Measurable Capability</h2>
             <p class="body-desc" style="margin-bottom: 1.2rem;">
               BTCC is designed to work across these interfaces. We identify important capability requirements, map the ecosystem around them, connect complementary capabilities and help create pathways from research and technology towards demonstration and deployment.
             </p>
-            <div class="quote-callout" style="margin-top: 1.5rem; background: #ffffff; border-left: 3px solid var(--accent-gold); padding: 1.2rem 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.04);">
-              <div style="font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; color: var(--accent-gold); text-transform: uppercase; margin-bottom: 0.4rem;">Our Central Question</div>
-              <p style="font-family: var(--font-serif); font-size: 1.25rem; color: var(--primary-navy); margin: 0; font-style: italic;">
+            <div class="quote-callout">
+              <div class="quote-label">Our Central Question</div>
+              <p class="quote-text">
                 "What capability is needed next — and what will it take to build it?"
               </p>
             </div>
           </div>
           <div>
-            <img src="assets/idea_observatory.jpg" alt="BTCC Observatory" style="width: 100%; border-radius: 4px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);">
+            <img src="assets/idea_observatory.jpg" alt="BTCC Observatory" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 24px rgba(0,0,0,0.08);">
           </div>
         </div>
       </div>
@@ -117,46 +118,46 @@
           <div class="pre-heading">INQUIRY & FORESIGHT</div>
           <h2 class="main-heading">The Questions That Drive BTCC</h2>
         </div>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem; margin-top: 2rem;">
-          <div class="feature-box" style="background: #fff; padding: 1.5rem; border: 1px solid var(--border-light); border-radius: 4px;">
-            <div style="color: var(--accent-gold); font-size: 0.75rem; font-weight: 700; margin-bottom: 0.4rem;">01</div>
-            <h3 style="font-size: 1.05rem; color: var(--primary-navy); margin-bottom: 0.5rem; font-weight: 600;">What is changing?</h3>
-            <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Tracking structural shifts across global and domestic scientific horizons.</p>
+        <div class="inquiry-grid">
+          <div class="inquiry-card">
+            <div class="inquiry-num">01</div>
+            <h3 class="inquiry-title">What is changing?</h3>
+            <p class="inquiry-desc">Tracking structural shifts across global and domestic scientific horizons.</p>
           </div>
-          <div class="feature-box" style="background: #fff; padding: 1.5rem; border: 1px solid var(--border-light); border-radius: 4px;">
-            <div style="color: var(--accent-gold); font-size: 0.75rem; font-weight: 700; margin-bottom: 0.4rem;">02</div>
-            <h3 style="font-size: 1.05rem; color: var(--primary-navy); margin-bottom: 0.5rem; font-weight: 600;">What capabilities are emerging?</h3>
-            <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Identifying critical technologies transitioning from laboratory promise to application.</p>
+          <div class="inquiry-card">
+            <div class="inquiry-num">02</div>
+            <h3 class="inquiry-title">What capabilities are emerging?</h3>
+            <p class="inquiry-desc">Identifying critical technologies transitioning from laboratory promise to application.</p>
           </div>
-          <div class="feature-box" style="background: #fff; padding: 1.5rem; border: 1px solid var(--border-light); border-radius: 4px;">
-            <div style="color: var(--accent-gold); font-size: 0.75rem; font-weight: 700; margin-bottom: 0.4rem;">03</div>
-            <h3 style="font-size: 1.05rem; color: var(--primary-navy); margin-bottom: 0.5rem; font-weight: 600;">Where are critical gaps?</h3>
-            <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Pinpointing the missing links in translation, talent, testing, and capital.</p>
+          <div class="inquiry-card">
+            <div class="inquiry-num">03</div>
+            <h3 class="inquiry-title">Where are critical gaps?</h3>
+            <p class="inquiry-desc">Pinpointing the missing links in translation, talent, testing, and capital.</p>
           </div>
-          <div class="feature-box" style="background: #fff; padding: 1.5rem; border: 1px solid var(--border-light); border-radius: 4px;">
-            <div style="color: var(--accent-gold); font-size: 0.75rem; font-weight: 700; margin-bottom: 0.4rem;">04</div>
-            <h3 style="font-size: 1.05rem; color: var(--primary-navy); margin-bottom: 0.5rem; font-weight: 600;">What already exists?</h3>
-            <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Mapping existing institutional strengths, research centres, and industry capacity.</p>
+          <div class="inquiry-card">
+            <div class="inquiry-num">04</div>
+            <h3 class="inquiry-title">What already exists?</h3>
+            <p class="inquiry-desc">Mapping existing institutional strengths, research centres, and industry capacity.</p>
           </div>
-          <div class="feature-box" style="background: #fff; padding: 1.5rem; border: 1px solid var(--border-light); border-radius: 4px;">
-            <div style="color: var(--accent-gold); font-size: 0.75rem; font-weight: 700; margin-bottom: 0.4rem;">05</div>
-            <h3 style="font-size: 1.05rem; color: var(--primary-navy); margin-bottom: 0.5rem; font-weight: 600;">Who can contribute?</h3>
-            <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Assembling researchers, technology developers, enterprise partners, and public bodies.</p>
+          <div class="inquiry-card">
+            <div class="inquiry-num">05</div>
+            <h3 class="inquiry-title">Who can contribute?</h3>
+            <p class="inquiry-desc">Assembling researchers, technology developers, enterprise partners, and public bodies.</p>
           </div>
-          <div class="feature-box" style="background: #fff; padding: 1.5rem; border: 1px solid var(--border-light); border-radius: 4px;">
-            <div style="color: var(--accent-gold); font-size: 0.75rem; font-weight: 700; margin-bottom: 0.4rem;">06</div>
-            <h3 style="font-size: 1.05rem; color: var(--primary-navy); margin-bottom: 0.5rem; font-weight: 600;">What is ready for application?</h3>
-            <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Evaluating technology readiness levels and real-world deployment maturity.</p>
+          <div class="inquiry-card">
+            <div class="inquiry-num">06</div>
+            <h3 class="inquiry-title">What is ready for application?</h3>
+            <p class="inquiry-desc">Evaluating technology readiness levels and real-world deployment maturity.</p>
           </div>
-          <div class="feature-box" style="background: #fff; padding: 1.5rem; border: 1px solid var(--border-light); border-radius: 4px;">
-            <div style="color: var(--accent-gold); font-size: 0.75rem; font-weight: 700; margin-bottom: 0.4rem;">07</div>
-            <h3 style="font-size: 1.05rem; color: var(--primary-navy); margin-bottom: 0.5rem; font-weight: 600;">What needs demonstration?</h3>
-            <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Designing field validation, living laboratories, and pilot environments.</p>
+          <div class="inquiry-card">
+            <div class="inquiry-num">07</div>
+            <h3 class="inquiry-title">What needs demonstration?</h3>
+            <p class="inquiry-desc">Designing field validation, living laboratories, and pilot environments.</p>
           </div>
-          <div class="feature-box" style="background: #fff; padding: 1.5rem; border: 1px solid var(--border-light); border-radius: 4px;">
-            <div style="color: var(--accent-gold); font-size: 0.75rem; font-weight: 700; margin-bottom: 0.4rem;">08</div>
-            <h3 style="font-size: 1.05rem; color: var(--primary-navy); margin-bottom: 0.5rem; font-weight: 600;">What can be responsibly deployed?</h3>
-            <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Establishing governance, security resilience, and institutional scaling pathways.</p>
+          <div class="inquiry-card">
+            <div class="inquiry-num">08</div>
+            <h3 class="inquiry-title">What can be responsibly deployed?</h3>
+            <p class="inquiry-desc">Establishing governance, security resilience, and institutional scaling pathways.</p>
           </div>
         </div>
       </div>
@@ -173,7 +174,7 @@
           </p>
         </div>
 
-        <div class="chain-wrapper" style="margin: 3rem 0;">
+        <div class="chain-wrapper">
           <div class="chain-node">
             <div class="chain-icon-circle"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg></div>
             <span class="chain-node-title">Research</span>
@@ -210,7 +211,7 @@
           </div>
         </div>
 
-        <div style="background: #ffffff; border: 1px solid var(--border-light); border-radius: 4px; padding: 2rem; max-width: 900px; margin: 0 auto; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+        <div style="background: #ffffff; border: 1px solid var(--border-light); border-radius: 6px; padding: 2rem; max-width: 900px; margin: 0 auto; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; font-size: 0.9rem; color: var(--text-dark);">
             <div>• Research may exist without translation.</div>
             <div>• Technology may exist without deployment.</div>
@@ -234,65 +235,65 @@
           </p>
         </div>
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 2.5rem;">
+        <div class="comparison-grid">
           
           <!-- What BTCC Is -->
-          <div style="background: #ffffff; border-top: 4px solid var(--accent-gold); padding: 2.2rem; border-radius: 4px; box-shadow: 0 4px 15px rgba(0,0,0,0.04);">
-            <div style="font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; color: var(--accent-gold); text-transform: uppercase; margin-bottom: 1rem;">BTCC Is:</div>
-            <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.9rem; font-size: 0.92rem; color: var(--text-dark);">
-              <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
-                <span style="color: var(--accent-gold); font-weight: bold;">&#10003;</span>
+          <div class="comparison-card is-card">
+            <div class="comparison-badge">BTCC Is:</div>
+            <ul class="comparison-list">
+              <li class="comparison-item">
+                <span class="icon-check">&#10003;</span>
                 <span>An independent capability intelligence platform</span>
               </li>
-              <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
-                <span style="color: var(--accent-gold); font-weight: bold;">&#10003;</span>
+              <li class="comparison-item">
+                <span class="icon-check">&#10003;</span>
                 <span>A research and technology foresight platform</span>
               </li>
-              <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
-                <span style="color: var(--accent-gold); font-weight: bold;">&#10003;</span>
+              <li class="comparison-item">
+                <span class="icon-check">&#10003;</span>
                 <span>A research-to-deployment bridge</span>
               </li>
-              <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
-                <span style="color: var(--accent-gold); font-weight: bold;">&#10003;</span>
+              <li class="comparison-item">
+                <span class="icon-check">&#10003;</span>
                 <span>A mission design and orchestration platform</span>
               </li>
-              <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
-                <span style="color: var(--accent-gold); font-weight: bold;">&#10003;</span>
+              <li class="comparison-item">
+                <span class="icon-check">&#10003;</span>
                 <span>A technology demonstration and ecosystem platform</span>
               </li>
-              <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
-                <span style="color: var(--accent-gold); font-weight: bold;">&#10003;</span>
+              <li class="comparison-item">
+                <span class="icon-check">&#10003;</span>
                 <span>An evidence-led technology knowledge platform</span>
               </li>
             </ul>
           </div>
 
           <!-- What BTCC Is Not -->
-          <div style="background: #ffffff; border-top: 4px solid var(--text-muted); padding: 2.2rem; border-radius: 4px; box-shadow: 0 4px 15px rgba(0,0,0,0.04);">
-            <div style="font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; color: var(--text-muted); text-transform: uppercase; margin-bottom: 1rem;">BTCC Is Not:</div>
-            <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.9rem; font-size: 0.92rem; color: var(--text-muted);">
-              <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
-                <span style="color: #94a3b8;">&times;</span>
+          <div class="comparison-card is-not-card">
+            <div class="comparison-badge">BTCC Is Not:</div>
+            <ul class="comparison-list">
+              <li class="comparison-item">
+                <span class="icon-cross">&times;</span>
                 <span>A government ministry or government agency</span>
               </li>
-              <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
-                <span style="color: #94a3b8;">&times;</span>
+              <li class="comparison-item">
+                <span class="icon-cross">&times;</span>
                 <span>A chamber of commerce or industry lobby</span>
               </li>
-              <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
-                <span style="color: #94a3b8;">&times;</span>
+              <li class="comparison-item">
+                <span class="icon-cross">&times;</span>
                 <span>A university or training academy</span>
               </li>
-              <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
-                <span style="color: #94a3b8;">&times;</span>
+              <li class="comparison-item">
+                <span class="icon-cross">&times;</span>
                 <span>A generic think tank</span>
               </li>
-              <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
-                <span style="color: #94a3b8;">&times;</span>
+              <li class="comparison-item">
+                <span class="icon-cross">&times;</span>
                 <span>A startup incubator by default or venture fund</span>
               </li>
-              <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
-                <span style="color: #94a3b8;">&times;</span>
+              <li class="comparison-item">
+                <span class="icon-cross">&times;</span>
                 <span>A generic technology or management consultancy</span>
               </li>
             </ul>
@@ -303,17 +304,17 @@
     </section>
 
     <!-- Section 5: Signature Institutional Formula -->
-    <section class="section-padded" style="background-color: var(--primary-navy); color: #ffffff; text-align: center;">
+    <section class="signature-formula-banner">
       <div class="site-container">
-        <div class="pre-heading" style="color: var(--accent-gold-light);">SIGNATURE BTCC FRAMEWORK</div>
-        <h2 style="font-family: var(--font-serif); font-size: 2rem; color: #ffffff; margin-bottom: 1.5rem; line-height: 1.4;">
+        <div class="formula-tag">SIGNATURE BTCC FRAMEWORK</div>
+        <h2 class="formula-title">
           FORESIGHT + CAPABILITY INTELLIGENCE + ECOSYSTEM + MISSION + DEMONSTRATION = NATIONAL CAPABILITY
         </h2>
-        <p style="font-size: 1.05rem; color: #cbd5e1; max-width: 720px; margin: 0 auto 2.5rem;">
+        <p class="formula-sub">
           The technologies of tomorrow may change. The requirement to build capability will remain.
         </p>
         <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-          <a href="capability.html" class="theme-btn-primary" style="background: var(--accent-gold); color: #fff;">Explore Capability Framework</a>
+          <a href="capability.html" class="theme-btn-primary">Explore Capability Framework</a>
           <a href="engage.html" class="theme-btn-secondary" style="border-color: rgba(255,255,255,0.4); color: #ffffff;">Engage With BTCC</a>
         </div>
       </div>

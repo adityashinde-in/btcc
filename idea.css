@@ -1,0 +1,257 @@
+/* ==========================================================================
+   idea.css — Styles for The BTCC Idea Page (idea.html)
+   ========================================================================== */
+
+/* Page Header Banner */
+.idea-page-intro {
+  background-color: var(--bg-soft-ivory);
+  border-bottom: 1px solid var(--border-light);
+  padding: 4rem 0;
+}
+
+/* Two Column Split Grid */
+.grid-2-col {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+/* Quote Callout */
+.quote-callout {
+  background: #ffffff;
+  border-left: 3px solid var(--accent-gold);
+  padding: 1.3rem 1.6rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+}
+
+.quote-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--accent-gold);
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
+.quote-text {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  color: var(--primary-navy);
+  font-style: italic;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* 8 Inquiries Grid */
+.inquiry-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.inquiry-card {
+  background: #ffffff;
+  padding: 1.6rem 1.4rem;
+  border: 1px solid var(--border-light);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+  transition: all 0.2s ease;
+}
+
+.inquiry-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+  border-color: #cbd5e1;
+}
+
+.inquiry-num {
+  color: var(--accent-gold);
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.05em;
+}
+
+.inquiry-title {
+  font-size: 1.05rem;
+  color: var(--primary-navy);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.inquiry-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* The Capability Chain */
+.chain-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding: 1rem 0;
+  margin: 2.5rem 0;
+}
+
+.chain-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+  min-width: 90px;
+}
+
+.chain-icon-circle {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid #bfdbfe;
+  background-color: #eff6ff;
+  color: var(--primary-navy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.chain-node:hover .chain-icon-circle {
+  border-color: var(--accent-gold);
+  background-color: #fffbeb;
+  color: var(--accent-gold-dark);
+}
+
+.chain-node-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #334155;
+}
+
+.chain-arrow {
+  color: #94a3b8;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+/* What BTCC Is vs What BTCC Is Not */
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+
+.comparison-card {
+  background: #ffffff;
+  padding: 2.2rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+.comparison-card.is-card {
+  border-top: 4px solid var(--accent-gold);
+}
+
+.comparison-card.is-not-card {
+  border-top: 4px solid #94a3b8;
+}
+
+.comparison-badge {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+}
+
+.is-card .comparison-badge {
+  color: var(--accent-gold);
+}
+
+.is-not-card .comparison-badge {
+  color: #64748b;
+}
+
+.comparison-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.95rem;
+  font-size: 0.92rem;
+}
+
+.comparison-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  line-height: 1.5;
+}
+
+.comparison-item .icon-check {
+  color: var(--accent-gold);
+  font-weight: bold;
+}
+
+.comparison-item .icon-cross {
+  color: #94a3b8;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+/* Signature Formula Banner */
+.signature-formula-banner {
+  background-color: var(--primary-navy);
+  color: #ffffff;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.formula-tag {
+  color: var(--accent-gold-light);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.formula-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.6rem, 2.8vw, 2.1rem);
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+.formula-sub {
+  font-size: 1.05rem;
+  color: #cbd5e1;
+  max-width: 720px;
+  margin: 0 auto 2.5rem;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .grid-2-col,
+  .comparison-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .inquiry-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .inquiry-grid {
+    grid-template-columns: 1fr;
+  }
+}

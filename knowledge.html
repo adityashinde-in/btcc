@@ -9,7 +9,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="knowledge.css">
 </head>
 <body>
 
@@ -74,7 +75,7 @@
   <main id="main-content">
 
     <!-- Page Header Intro -->
-    <section class="section-padded" style="background-color: var(--bg-soft-ivory); border-bottom: 1px solid var(--border-light); padding-top: 4rem; padding-bottom: 4rem;">
+    <section class="knowledge-page-intro">
       <div class="site-container">
         <div class="section-title-wrapper" style="text-align: left; margin-bottom: 0;">
           <div class="pre-heading">PAGE 13 — BTCC KNOWLEDGE</div>
@@ -94,52 +95,52 @@
           <h2 class="main-heading">The BTCC Knowledge Architecture</h2>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; margin-top: 2.5rem;">
+        <div class="knowledge-assets-grid">
           
-          <div class="feature-box" style="background: #ffffff; border: 1px solid var(--border-light); border-top: 3px solid var(--accent-gold); padding: 2rem; border-radius: 4px;">
-            <div style="font-size: 0.75rem; font-weight: 700; color: var(--accent-gold); margin-bottom: 0.5rem;">INDEX</div>
-            <h3 style="font-family: var(--font-serif); font-size: 1.3rem; color: var(--primary-navy); margin-bottom: 0.75rem;">BTCC Technology Capability Index</h3>
-            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin: 0;">
+          <div class="asset-card">
+            <div class="asset-badge">INDEX</div>
+            <h3 class="asset-title">BTCC Technology Capability Index</h3>
+            <p class="asset-desc">
               An annual multi-dimensional assessment evaluating national technology capability across critical sectors, research density, supply-chain autonomy, and deployment readiness.
             </p>
           </div>
 
-          <div class="feature-box" style="background: #ffffff; border: 1px solid var(--border-light); border-top: 3px solid var(--accent-gold); padding: 2rem; border-radius: 4px;">
-            <div style="font-size: 0.75rem; font-weight: 700; color: var(--accent-gold); margin-bottom: 0.5rem;">OUTLOOK</div>
-            <h3 style="font-family: var(--font-serif); font-size: 1.3rem; color: var(--primary-navy); margin-bottom: 0.75rem;">BTCC Technology Capability Outlook</h3>
-            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin: 0;">
+          <div class="asset-card">
+            <div class="asset-badge">OUTLOOK</div>
+            <h3 class="asset-title">BTCC Technology Capability Outlook</h3>
+            <p class="asset-desc">
               Forward-looking strategic analysis mapping technological horizons over 5, 10, and 20-year cycles to inform national policy and institutional investment.
             </p>
           </div>
 
-          <div class="feature-box" style="background: #ffffff; border: 1px solid var(--border-light); border-top: 3px solid var(--accent-gold); padding: 2rem; border-radius: 4px;">
-            <div style="font-size: 0.75rem; font-weight: 700; color: var(--accent-gold); margin-bottom: 0.5rem;">REGISTER</div>
-            <h3 style="font-family: var(--font-serif); font-size: 1.3rem; color: var(--primary-navy); margin-bottom: 0.75rem;">BTCC Capability Gap Register</h3>
-            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin: 0;">
+          <div class="asset-card">
+            <div class="asset-badge">REGISTER</div>
+            <h3 class="asset-title">BTCC Capability Gap Register</h3>
+            <p class="asset-desc">
               A structured institutional registry of identified technology and supply-chain vulnerabilities, infrastructure deficits, and translation bottlenecks requiring coordinated missions.
             </p>
           </div>
 
-          <div class="feature-box" style="background: #ffffff; border: 1px solid var(--border-light); border-top: 3px solid var(--accent-gold); padding: 2rem; border-radius: 4px;">
-            <div style="font-size: 0.75rem; font-weight: 700; color: var(--accent-gold); margin-bottom: 0.5rem;">OBSERVATORY</div>
-            <h3 style="font-family: var(--font-serif); font-size: 1.3rem; color: var(--primary-navy); margin-bottom: 0.75rem;">BTCC Technology Readiness Observatory</h3>
-            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin: 0;">
+          <div class="asset-card">
+            <div class="asset-badge">OBSERVATORY</div>
+            <h3 class="asset-title">BTCC Technology Readiness Observatory</h3>
+            <p class="asset-desc">
               Continuous tracking of technology readiness levels (TRL) and deployment readiness levels (DRL) across domestic laboratories and deep-tech enterprises.
             </p>
           </div>
 
-          <div class="feature-box" style="background: #ffffff; border: 1px solid var(--border-light); border-top: 3px solid var(--accent-gold); padding: 2rem; border-radius: 4px;">
-            <div style="font-size: 0.75rem; font-weight: 700; color: var(--accent-gold); margin-bottom: 0.5rem;">BRIEFS</div>
-            <h3 style="font-family: var(--font-serif); font-size: 1.3rem; color: var(--primary-navy); margin-bottom: 0.75rem;">BTCC Technology Briefs</h3>
-            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin: 0;">
+          <div class="asset-card">
+            <div class="asset-badge">BRIEFS</div>
+            <h3 class="asset-title">BTCC Technology Briefs</h3>
+            <p class="asset-desc">
               Concise, evidence-led briefs addressing targeted technology questions, policy standards, procurement pathways, and operational challenges.
             </p>
           </div>
 
-          <div class="feature-box" style="background: #ffffff; border: 1px solid var(--border-light); border-top: 3px solid var(--accent-gold); padding: 2rem; border-radius: 4px;">
-            <div style="font-size: 0.75rem; font-weight: 700; color: var(--accent-gold); margin-bottom: 0.5rem;">DATA & FRAMEWORKS</div>
-            <h3 style="font-family: var(--font-serif); font-size: 1.3rem; color: var(--primary-navy); margin-bottom: 0.75rem;">Datasets & Methodologies</h3>
-            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin: 0;">
+          <div class="asset-card">
+            <div class="asset-badge">DATA & FRAMEWORKS</div>
+            <h3 class="asset-title">Datasets & Methodologies</h3>
+            <p class="asset-desc">
               Open institutional datasets, assessment frameworks, benchmark methodologies, and mission documentation curated for public systems and research partners.
             </p>
           </div>
@@ -149,38 +150,22 @@
     </section>
 
     <!-- Publication Categories -->
-    <section class="section-padded" style="background-color: var(--bg-soft-ivory); border-top: 1px solid var(--border-light); border-bottom: 1px solid var(--border-light);">
+    <section class="section-padded categories-section">
       <div class="site-container">
         <div class="section-title-wrapper">
           <div class="pre-heading">REPOSITORY CATEGORIES</div>
           <h2 class="main-heading">Content Types & Publications</h2>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 2rem;">
-          <div style="background: #fff; padding: 1.2rem; border: 1px solid var(--border-light); border-radius: 4px; font-size: 0.9rem; font-weight: 600; color: var(--primary-navy);">
-            • Research Reports
-          </div>
-          <div style="background: #fff; padding: 1.2rem; border: 1px solid var(--border-light); border-radius: 4px; font-size: 0.9rem; font-weight: 600; color: var(--primary-navy);">
-            • Technology Briefs
-          </div>
-          <div style="background: #fff; padding: 1.2rem; border: 1px solid var(--border-light); border-radius: 4px; font-size: 0.9rem; font-weight: 600; color: var(--primary-navy);">
-            • Capability Assessments
-          </div>
-          <div style="background: #fff; padding: 1.2rem; border: 1px solid var(--border-light); border-radius: 4px; font-size: 0.9rem; font-weight: 600; color: var(--primary-navy);">
-            • Technology Outlooks
-          </div>
-          <div style="background: #fff; padding: 1.2rem; border: 1px solid var(--border-light); border-radius: 4px; font-size: 0.9rem; font-weight: 600; color: var(--primary-navy);">
-            • Capability Gap Studies
-          </div>
-          <div style="background: #fff; padding: 1.2rem; border: 1px solid var(--border-light); border-radius: 4px; font-size: 0.9rem; font-weight: 600; color: var(--primary-navy);">
-            • Mission Papers
-          </div>
-          <div style="background: #fff; padding: 1.2rem; border: 1px solid var(--border-light); border-radius: 4px; font-size: 0.9rem; font-weight: 600; color: var(--primary-navy);">
-            • Working Papers
-          </div>
-          <div style="background: #fff; padding: 1.2rem; border: 1px solid var(--border-light); border-radius: 4px; font-size: 0.9rem; font-weight: 600; color: var(--primary-navy);">
-            • Policy & Strategy Papers
-          </div>
+        <div class="categories-grid">
+          <div class="category-pill">• Research Reports</div>
+          <div class="category-pill">• Technology Briefs</div>
+          <div class="category-pill">• Capability Assessments</div>
+          <div class="category-pill">• Technology Outlooks</div>
+          <div class="category-pill">• Capability Gap Studies</div>
+          <div class="category-pill">• Mission Papers</div>
+          <div class="category-pill">• Working Papers</div>
+          <div class="category-pill">• Policy & Strategy Papers</div>
         </div>
       </div>
     </section>

@@ -9,7 +9,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="missions.css">
 </head>
 <body>
 
@@ -74,7 +75,7 @@
   <main id="main-content">
 
     <!-- Page Header Intro -->
-    <section class="section-padded" style="background-color: var(--bg-soft-ivory); border-bottom: 1px solid var(--border-light); padding-top: 4rem; padding-bottom: 4rem;">
+    <section class="missions-page-intro">
       <div class="site-container">
         <div class="section-title-wrapper" style="text-align: left; margin-bottom: 0;">
           <div class="pre-heading">PAGE 12 — CAPABILITY MISSIONS</div>
@@ -87,11 +88,11 @@
     </section>
 
     <!-- Mission Architecture Banner -->
-    <section class="section-padded" style="padding-top: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border-light);">
+    <section class="section-padded-sm" style="border-bottom: 1px solid var(--border-light);">
       <div class="site-container">
-        <div style="background: #ffffff; border: 1px solid var(--border-light); border-left: 4px solid var(--accent-gold); padding: 1.8rem 2rem; border-radius: 4px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-          <div style="font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; color: var(--accent-gold); text-transform: uppercase; margin-bottom: 0.5rem;">Mission Architecture</div>
-          <p style="font-size: 0.95rem; color: var(--text-dark); margin: 0; line-height: 1.6;">
+        <div class="mission-architecture-box">
+          <div class="arch-tag">Mission Architecture</div>
+          <p class="arch-desc">
             A BTCC mission brings together: <strong>Research Institutions</strong> + <strong>Technology Developers</strong> + <strong>Industry</strong> + <strong>Talent</strong> + <strong>Capital</strong> + <strong>Public Systems</strong> to pursue measurable capability outcomes.
           </p>
         </div>
@@ -103,71 +104,71 @@
       <div class="site-container">
         
         <!-- Mission 1: Autonomous Systems for Bharat -->
-        <article class="mission-full-card" style="display: grid; grid-template-columns: 1.1fr 1fr; gap: 3rem; align-items: center; margin-bottom: 5rem; background: #ffffff; border: 1px solid var(--border-light); border-radius: 4px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
-          <div style="padding: 3rem;">
-            <div class="pre-heading" style="color: var(--accent-gold-dark);">FOUNDING MISSION 01</div>
-            <h2 style="font-family: var(--font-serif); font-size: 2rem; color: var(--primary-navy); margin-bottom: 1rem;">Autonomous Systems for Bharat</h2>
-            <p style="font-size: 0.95rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 1.5rem;">
+        <article class="mission-full-card">
+          <div class="mission-card-body">
+            <div class="pre-heading">FOUNDING MISSION 01</div>
+            <h2 class="mission-heading">Autonomous Systems for Bharat</h2>
+            <p class="mission-desc">
               Connecting AI, robotics, drones, sensors, communications and related technologies towards practical capability development.
             </p>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; font-size: 0.82rem; background: var(--bg-soft-ivory); padding: 1.2rem; border-radius: 4px; border: 1px solid var(--border-light);">
-              <div><strong>Focus:</strong> Unmanned & Autonomous Systems</div>
-              <div><strong>Pathway:</strong> Civilian & Strategic Demonstration</div>
-              <div><strong>Ecosystem:</strong> Laboratories, Industry & MSMEs</div>
-              <div><strong>Outcome:</strong> Deployable Native Platforms</div>
+            <div class="mission-meta-grid">
+              <div class="meta-item"><strong>Focus:</strong> Unmanned & Autonomous Systems</div>
+              <div class="meta-item"><strong>Pathway:</strong> Civilian & Strategic Demonstration</div>
+              <div class="meta-item"><strong>Ecosystem:</strong> Laboratories, Industry & MSMEs</div>
+              <div class="meta-item"><strong>Outcome:</strong> Deployable Native Platforms</div>
             </div>
-            <div style="margin-top: 1.5rem;">
-              <a href="engage.html" class="theme-btn-primary" style="display: inline-block;">Partner on this Mission</a>
+            <div>
+              <a href="engage.html" class="theme-btn-primary">Partner on this Mission</a>
             </div>
           </div>
-          <div style="height: 100%; min-height: 380px;">
-            <img src="assets/mission_drone.jpg" alt="Autonomous Systems for Bharat" style="width: 100%; height: 100%; object-fit: cover;">
+          <div class="mission-card-media">
+            <img src="assets/mission_drone.jpg" alt="Autonomous Systems for Bharat">
           </div>
         </article>
 
         <!-- Mission 2: Cyber Resilience for Bharat -->
-        <article class="mission-full-card" style="display: grid; grid-template-columns: 1fr 1.1fr; gap: 3rem; align-items: center; margin-bottom: 5rem; background: #ffffff; border: 1px solid var(--border-light); border-radius: 4px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
-          <div style="height: 100%; min-height: 380px;">
-            <img src="assets/mission_cyber.jpg" alt="Cyber Resilience for Bharat" style="width: 100%; height: 100%; object-fit: cover;">
+        <article class="mission-full-card reverse">
+          <div class="mission-card-media">
+            <img src="assets/mission_cyber.jpg" alt="Cyber Resilience for Bharat">
           </div>
-          <div style="padding: 3rem;">
-            <div class="pre-heading" style="color: var(--accent-gold-dark);">FOUNDING MISSION 02</div>
-            <h2 style="font-family: var(--font-serif); font-size: 2rem; color: var(--primary-navy); margin-bottom: 1rem;">Cyber Resilience for Bharat</h2>
-            <p style="font-size: 0.95rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 1.5rem;">
+          <div class="mission-card-body">
+            <div class="pre-heading">FOUNDING MISSION 02</div>
+            <h2 class="mission-heading">Cyber Resilience for Bharat</h2>
+            <p class="mission-desc">
               Strengthening resilience across digital enterprises, public systems, healthcare, industry and emerging technology environments.
             </p>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; font-size: 0.82rem; background: var(--bg-soft-ivory); padding: 1.2rem; border-radius: 4px; border: 1px solid var(--border-light);">
-              <div><strong>Focus:</strong> Digital Security & Critical Infra</div>
-              <div><strong>Pathway:</strong> Real-time Testing & Hardening</div>
-              <div><strong>Ecosystem:</strong> Enterprise, Academia & CERTs</div>
-              <div><strong>Outcome:</strong> Sovereign Security Architecture</div>
+            <div class="mission-meta-grid">
+              <div class="meta-item"><strong>Focus:</strong> Digital Security & Critical Infra</div>
+              <div class="meta-item"><strong>Pathway:</strong> Real-time Testing & Hardening</div>
+              <div class="meta-item"><strong>Ecosystem:</strong> Enterprise, Academia & CERTs</div>
+              <div class="meta-item"><strong>Outcome:</strong> Sovereign Security Architecture</div>
             </div>
-            <div style="margin-top: 1.5rem;">
-              <a href="engage.html" class="theme-btn-primary" style="display: inline-block;">Partner on this Mission</a>
+            <div>
+              <a href="engage.html" class="theme-btn-primary">Partner on this Mission</a>
             </div>
           </div>
         </article>
 
         <!-- Mission 3: Dual-Use Technology Translation -->
-        <article class="mission-full-card" style="display: grid; grid-template-columns: 1.1fr 1fr; gap: 3rem; align-items: center; background: #ffffff; border: 1px solid var(--border-light); border-radius: 4px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
-          <div style="padding: 3rem;">
-            <div class="pre-heading" style="color: var(--accent-gold-dark);">FOUNDING MISSION 03</div>
-            <h2 style="font-family: var(--font-serif); font-size: 2rem; color: var(--primary-navy); margin-bottom: 1rem;">Dual-Use Technology Translation</h2>
-            <p style="font-size: 0.95rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 1.5rem;">
+        <article class="mission-full-card">
+          <div class="mission-card-body">
+            <div class="pre-heading">FOUNDING MISSION 03</div>
+            <h2 class="mission-heading">Dual-Use Technology Translation</h2>
+            <p class="mission-desc">
               Creating pathways between civilian research, strategic applications, testing, industry, capital and deployment.
             </p>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; font-size: 0.82rem; background: var(--bg-soft-ivory); padding: 1.2rem; border-radius: 4px; border: 1px solid var(--border-light);">
-              <div><strong>Focus:</strong> Civilian & Strategic Convergence</div>
-              <div><strong>Pathway:</strong> Rapid Prototyping & Testing</div>
-              <div><strong>Ecosystem:</strong> R&D Labs, Capital & Industry</div>
-              <div><strong>Outcome:</strong> Scalable Domestic Manufacturing</div>
+            <div class="mission-meta-grid">
+              <div class="meta-item"><strong>Focus:</strong> Civilian & Strategic Convergence</div>
+              <div class="meta-item"><strong>Pathway:</strong> Rapid Prototyping & Testing</div>
+              <div class="meta-item"><strong>Ecosystem:</strong> R&D Labs, Capital & Industry</div>
+              <div class="meta-item"><strong>Outcome:</strong> Scalable Domestic Manufacturing</div>
             </div>
-            <div style="margin-top: 1.5rem;">
-              <a href="engage.html" class="theme-btn-primary" style="display: inline-block;">Partner on this Mission</a>
+            <div>
+              <a href="engage.html" class="theme-btn-primary">Partner on this Mission</a>
             </div>
           </div>
-          <div style="height: 100%; min-height: 380px;">
-            <img src="assets/mission_dual_use.jpg" alt="Dual-Use Technology Translation" style="width: 100%; height: 100%; object-fit: cover;">
+          <div class="mission-card-media">
+            <img src="assets/mission_dual_use.jpg" alt="Dual-Use Technology Translation">
           </div>
         </article>
 
