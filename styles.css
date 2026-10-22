@@ -133,6 +133,7 @@ img {
   display: flex;
   align-items: center;
   gap: 1.4rem;
+  list-style: none;
 }
 
 .theme-nav-item {
