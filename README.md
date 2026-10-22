@@ -27,5 +27,5 @@ BTCC is an autonomous institution dedicated to bridging the gap between scientif
 - `styles.css`: Backward-compatible master entrypoint.
 
 ### Script & Assets
-- `script.js`: Clean navigation, sticky header transitions, mobile drawer handling, search modal, and smooth scrolling.
+- `script.js`: Clean navigation, sticky header transitions, mobile drawer handling, and smooth page scrolling.
 - `assets/`: Frontier technology imagery, mission visuals, and institutional banners.

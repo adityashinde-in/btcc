@@ -363,21 +363,6 @@ body.page-is-leaving main {
   background-color: var(--accent-gold);
 }
 
-.header-search-icon {
-  color: #334155;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 6px;
-  border-radius: 50%;
-  transition: all 0.2s;
-}
-
-.header-search-icon:hover {
-  color: var(--accent-gold);
-}
-
 .menu-hamburger {
   display: none;
   flex-direction: column;
@@ -572,8 +557,7 @@ body.page-is-leaving main {
 
 /* Responsive Header & Footer */
 @media (max-width: 900px) {
-  .center-nav,
-  .header-search-icon {
+  .center-nav {
     display: none;
   }
   .menu-hamburger {
